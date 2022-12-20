@@ -42,12 +42,6 @@ text-decoration:none;
 div.gallery {
   padding:0px;
 }
-div.gallery:hover .overlay {
-  opacity: 1;
-  position: relative;
-  width: 100%;
-  max-width: 100%;
-}
 div.gallery img {
   /*display: block;*/
   width: 100%;
@@ -93,7 +87,12 @@ div.desc {
   float: left;
   width: 24.99999%;
 }
-
+.responsive:hover .overlay {
+  opacity: 1;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
 @media only screen and (max-width: 700px) {
   .responsive {
     width: 49.99999%;

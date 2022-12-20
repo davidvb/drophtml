@@ -43,14 +43,13 @@ div.gallery {
   padding:0px;
 }
 div.gallery img {
-  /*display: block;*/
   width: 100%;
   height: auto;
   border-radius: .16em;
 }
 
 .overlay {
-  position: absolute; 
+  position: relative; 
   bottom: 0; 
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
@@ -63,7 +62,7 @@ div.gallery img {
   padding: 8px;
   text-align: center;
 }
-div.gallery:hover .overlay {
+div.gallery img:hover .overlay {
   opacity: 1;
 }
 div.desc {

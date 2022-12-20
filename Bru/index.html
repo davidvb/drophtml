@@ -50,7 +50,7 @@ div.gallery img {
 }
 
 .overlay {
-  position: relative; 
+  position: absolute; 
   bottom: 0; 
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
@@ -63,9 +63,7 @@ div.gallery img {
   padding: 8px;
   text-align: center;
 }
-
-/* When you mouse over the container, fade in the overlay title */
-.container:hover .overlay {
+div.gallery:hover .overlay {
   opacity: 1;
 }
 div.desc {
@@ -87,12 +85,7 @@ div.desc {
   float: left;
   width: 24.99999%;
 }
-.responsive:hover .overlay {
-  opacity: 1;
-  position: relative;
-  width: 49.99999%;
-  max-width: 100%;
-}
+
 @media only screen and (max-width: 700px) {
   .responsive {
     width: 49.99999%;

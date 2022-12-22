@@ -46,6 +46,19 @@ div.gallery img {
   width: 100%;
   height: auto;
   border-radius: .16em;
+  position: fixed; 
+  bottom: 0; 
+  right: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.85); /* Black see-through */
+  color: #f1f1f1; 
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .overlay {
@@ -111,9 +124,8 @@ div.desc {
 <h2>Testjuhhh</h2>
 
 <div class="responsive">
-  <div class="gallery">
-      <img src="https://www.dropbox.com/s/e8liiz07fh7a435/IMG_8424.jpeg?raw=1" width="600" height="auto" class="overlay" image 1>
-  </div>
+  <div class="gallery">image 1.1</div>
+      <img src="https://www.dropbox.com/s/e8liiz07fh7a435/IMG_8424.jpeg?raw=1" width="600" height="auto">
 </div>
 <div class="responsive">
   <div class="gallery">

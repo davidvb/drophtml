@@ -1,1 +1,99 @@
-..
+html {
+background-color: #1C1C1E;
+font-family:system-ui;padding:0px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px; 
+  font-weight: 400; 
+  color:#AC8D68;
+  font-family:TimesNewRomanPS-ItalicMT;
+  line-height:1.1;
+  padding: 4px 4px 16px 4px;
+  margin: 0px;
+}
+
+p {
+float: left;
+text-align: center;
+font-size:10px; 
+font-weight:400; 
+color:#615F5D;
+padding-top: 24px;
+width: 100%;
+}
+
+a { 
+font-size:10px;
+color: #AC8D68;
+text-decoration:none;
+}
+
+div.gallery {
+  position: relative;
+  padding:0px;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: .16em;
+}
+.overlay {
+  position: absolute; 
+  align: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.88); /* Black see-through */
+  color: #f1f1f1; 
+  transition: .5s ease;
+  opacity:0;
+  color: #AC8D68;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+div.gallery:hover .overlay {
+  opacity: 1;
+}
+div.desc {
+  text-align: center;
+  font-size: 10px;
+  font-weight: 400;
+  line-hight: 1.0;
+  text-transform: uppercase;
+  color: #AC8D68;
+  padding: 2px 4px 6px 4px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 1px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 1px 0;
+  }
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

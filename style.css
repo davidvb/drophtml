@@ -35,7 +35,7 @@ a.li {
   font-size: 1.0em;
   line-height:1.4;
   font-weight: 400;
-  color:#c2a37f;
+  color:#a39079;
   text-decoration:none;
 }
 
@@ -63,6 +63,7 @@ div.gallery {
   position: relative;
   padding:0px;
 }
+
 div.gallery img {
   width: 100%;
   height: auto;

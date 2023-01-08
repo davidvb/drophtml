@@ -39,6 +39,11 @@ div.list {
   color:#AC8D68;
 }
 
+a.li {
+font-size:1.1em;
+text-decoration:none;
+}
+
 p {
 float: left;
 text-align: center;

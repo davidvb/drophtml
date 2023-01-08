@@ -21,7 +21,7 @@ h2 {
 .intro {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 1em;
-  font-weight: 300;
+  font-weight: 400;
   line-height:1.3;
   text-align: center;
   color:#a39079;
@@ -33,14 +33,15 @@ a.li {
   list-style-type: none;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 1.0em;
-  line-height:1.4;
+  line-height:1.5;
   font-weight: 600;
   color:#a39079;
   text-decoration:none;
 }
 
 a.li:hover {
-    text-decoration: underline;
+    border-bottom: 1px dotted #a39079;
+    text-decoration: none;
 }
 
 div.li {

@@ -39,6 +39,10 @@ a.li {
   text-decoration:none;
 }
 
+div.li {
+padding: 0px 4px 8px 4px;
+}
+
 p {
 float: left;
 text-align: center;

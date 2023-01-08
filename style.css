@@ -43,6 +43,10 @@ div.li {
 padding: 0px 4px 8px 4px;
 }
 
+.li:hover {
+    text-decoration: underline;
+}
+
 p {
 float: left;
 text-align: center;
